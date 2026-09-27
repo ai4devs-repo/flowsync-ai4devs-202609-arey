@@ -1,5 +1,8 @@
 # Prompts
 
+**Modelo:** Sonnet 5 xHigh
+**Herramienta:** Claude Code
+
 ## Prompt 1
 
 Ayudame a crear el alcance para el proyecto actual. Vamos a crearlo en la ruta docs/prd/alcance-mvp-ar.md. Quiero que FlowSync sea una herramienta para que los equipos remotos sepan en qué está trabajando cada uno sin tener que hacer reuniones de sincronización. Algo tipo tareas compartidas pero más en tiempo real y menos rollo que Jira. Lo haremos en pasos:
