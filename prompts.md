@@ -1,35 +1,6 @@
 # Prompts
 
-Aquí van **todos los prompts que lanzaste** para hacer el ejercicio, en el orden en que los
-lanzaste, con el modelo y la herramienta de cada uno.
-
-Esto no es papeleo. Lo que se revisa es **cómo pediste las cosas**, no solo lo que salió: un
-resultado flojo con un prompt bueno y un resultado flojo con un prompt vago necesitan feedback
-distinto, y sin este archivo no se distinguen.
-
-## Cómo rellenarlo
-
-- Un apartado `## Prompt N` por cada prompt.
-- **Pega el prompt tal cual lo lanzaste**, dentro del bloque de código, aunque ocupe diez líneas
-  y aunque tenga faltas. No lo reescribas para que quede bien: el que arreglaste mentalmente
-  después no es el que lanzaste.
-- Incluye también los que **no funcionaron**. Suelen ser los más útiles de leer.
-- `Modelo` y `Herramienta` en todos. Si cambiaste de una a otra a mitad, se nota aquí.
-
-Borra el ejemplo de abajo cuando escribas el primero.
-
----
-
-## Prompt 1
-
-**Modelo:** Opus 1M xHigh
+**Modelo:** Sonnet 5.5 xHigh
 **Herramienta:** Claude Code
 
-```
-Este es el ejemplo. Bórralo.
-
-El prompt va aquí dentro, entero y con sus saltos de línea,
-para que se sepa dónde empieza y dónde acaba.
-```
-
-**Qué salió:** (opcional, una línea) funcionó a la primera / tuve que insistir / me inventó una ruta que no existe.
+escribe una especificacion y dejala en "/docs/spec-viva-ar.md". La spec debe describir exclusivamente un requerimiento de cuentas y acceso: registro, inicio de sesion y perfil. La descripcion es exclusivamente de lo que esta implementado hoy en el codigo. La spec debe incluir front y back: pantallas, rutas y proteccion de rutas controladores, modelos, validadores y middleware. La spec debe tener el siguiente formato: comienza con un ##Purpose de dos lineas describiendo para que existe esta capability. Luego una seccion ##Requirements y colgando ###Requirement en los que el sistema SHALL hacer algo. Bajo cada ###Requirement un ###Scenario describiendo un **WHEN** y **THEN** la precondicion se incluye en **WHEN** no hay **GIVEN**. Se debe escribir en español, pero palabras como SHALL, MUST, WHEN, THEN van en ingles y en mayuscula sostenida. La especificacion exclusivamente contiene comportamiento observable desde fuera, NO es una especificacion TECNICA.
