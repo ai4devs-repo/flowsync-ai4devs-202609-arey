@@ -1,6 +1,6 @@
 ## Purpose
 
-Permite que una persona cree una cuenta en FlowSync, acceda a ella con su email y contraseña y consulte su perfil.
+Acceso y login. Permite que una persona cree una cuenta en FlowSync, acceda a ella con su email y contraseña y consulte su perfil.
 Garantiza que solo quien tiene una sesión válida ve las pantallas privadas y que la sesión se mantiene o se cierra de forma predecible.
 
 ## Requirements
